@@ -1,0 +1,17 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "description": "demo nodejs api with koa2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Lucas Anjos",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.0",
+    "mongoose": "^4.10.4"
+  }
+}
