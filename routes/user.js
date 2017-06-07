@@ -9,9 +9,9 @@ router.get('/user', async(ctx) => {
 
 });
 
-router.post('/user', async(ctx) => {
+router.post('/user', async ctx => {
 
-    ctx.body = ctx.request;
+    ctx.body = ctx.request.body;
 
 });
 
