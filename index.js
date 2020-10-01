@@ -4,7 +4,7 @@ const bodyParser = require('koa-bodyparser');
 const mongoose = require('mongoose');
 const user = require('./routes/user');
 
-mongoose.connect('mongodb://demo:demo@ds111882.mlab.com:11882/api-koa2-demo');
+mongoose.connect('mongodb://uri/api-koa2-demo');
 
 const app = new Koa();
 const router = new Router();
